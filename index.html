@@ -262,8 +262,8 @@
 				}
 
 				finalizeButton.addEventListener('click', function () {
-					alert("Se completó el formulario");
-
+					var body = document.getElementById('container');
+					body.innerHTML = "<center><h1>Formulario Completo<h1/></center>";
 				});
 			});
 		</script>
